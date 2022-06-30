@@ -13,10 +13,10 @@ ReactDOM.render(
     <React.StrictMode>
       <HashRouter>
         <Switch>
-          <Route path={`/auth`} component={AuthLayout} />
-          <Route path={`/admin`} component={AdminLayout} />
-          <Route path={`/rtl`} component={RTLLayout} />
-          <Redirect from='/' to='/admin' />
+          {/* <Route path={`/auth`} component={AuthLayout} /> */}
+          <Route path={`/`} component={AdminLayout} />
+          {/* <Route path={`/rtl`} component={RTLLayout} /> */}
+          <Redirect from='/' to='/' />
         </Switch>
       </HashRouter>
     </React.StrictMode>

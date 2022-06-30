@@ -36,7 +36,7 @@ export function SearchBar(props) {
             }></IconButton>
         }
       />
-      <Input
+      {/* <Input
         variant='search'
         fontSize='sm'
         bg={background ? background : inputBg}
@@ -45,7 +45,7 @@ export function SearchBar(props) {
         _placeholder={{ color: "gray.400", fontSize: "14px" }}
         borderRadius={borderRadius ? borderRadius : "30px"}
         placeholder={placeholder ? placeholder : "Search..."}
-      />
+      /> */}
     </InputGroup>
   );
 }
