@@ -155,7 +155,7 @@ export default function ColumnsTable(props) {
                                 ? MdCheckCircle
                                 : cell.value === "Fallida"
                                 ? MdCancel
-                                : cell.value === "null"
+                                : cell.value === "Pendiente"
                                 ? MdOutlineError
                                 : null
                             }
@@ -165,7 +165,7 @@ export default function ColumnsTable(props) {
                           </Text>
                         </Flex>
                       );
-                    } else if (cell.column.Header === "Fecha último testeo") {
+                    } else if (cell.column.Header === "Fecha último estado") {
                       data = (
                         <Text color={textColor} fontSize='sm' fontWeight='700'>
                           {cell.value}

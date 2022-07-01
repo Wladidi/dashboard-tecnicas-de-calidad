@@ -59,6 +59,7 @@ import {
 } from "views/admin/default/variables/columnsData";
 import tableDataCheck from "views/admin/default/variables/tableDataCheck.json";
 import tableDataComplex from "views/admin/default/variables/tableDataComplex.json";
+import cargas from './components/carga.json'
 
 export default function UserReports() {
   // Chakra Color Mode
@@ -82,7 +83,7 @@ export default function UserReports() {
             />
           }
           name='Total de pruebas'
-          value='40'
+          value='31'
         />
         <MiniStatistics
           startContent={
@@ -141,7 +142,7 @@ export default function UserReports() {
         />
       </SimpleGrid>
 
-      <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
+      <SimpleGrid columns={{ base: 1, md: 1,lg:1, xl: 2 }} gap='20px' mb='20px'>
         <TotalSpent title="Servicio obtener información patente"/>
         <WeeklyRevenue />
       </SimpleGrid>
@@ -150,18 +151,18 @@ export default function UserReports() {
           
           <PieCard title="Pruebas de estrés" options={[{title: 'Ciclo 1', value: '1'},{title: 'Ciclo 2', value: '2'},{title: 'Ciclo final', value: '3'}]} 
             values={{
-                '1': [57,43],
-                '2': [68,32],
-                '3': [88,12]
+                '1': [48,52],
+                '2': [67,33],
+                '3': [90,10]
             }} 
             labels={["Aprobadas", "Fallidas"]}
             colors={["#4318FF", "#6AD2FF"]}
             />
             <PieCard title="Pruebas de carga" options={[{title: 'Ciclo 1', value: '1'},{title: 'Ciclo 2', value: '2'},{title: 'Ciclo final', value: '3'}]} 
             values={{
-                '1': [57,43],
-                '2': [68,32],
-                '3': [88,12]
+                '1': [32,78],
+                '2': [58,42],
+                '3': [85,15]
             }} 
             labels={["Aprobadas", "Fallidas"]}
             colors={["#4318FF", "#6AD2FF"]}
@@ -188,8 +189,8 @@ export default function UserReports() {
           tableData={tableDataComplex}
         />
         <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
-        <DailyTraffic />
-        <DailyTraffic />
+        <DailyTraffic title="Pruebas de carga" options={cargas}/>
+        <DailyTraffic title="Pruebas de estrés" options={tableDataComplex}/>
         </SimpleGrid>
         </SimpleGrid>
     </Box>

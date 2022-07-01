@@ -2,37 +2,211 @@
   {
     "nombre":"Servicio obtener información patente v1",
     "status": "Aprobada",
-    "fecha": "18 Apr 2022",
-    "progreso": 13  
+    "fecha": "30-06-2022",
+    "progreso": 13,
+    "id": 0,
+    "data": [
+      {
+        "name": "CPU (%)",
+        "data": [32, 17, 5]
+      },
+      {
+        "name": "RAM (%)",
+        "data": [48, 34, 23]
+      },
+      {
+        "name": "Disco (%)",
+        "data": [26, 15, 9]
+      }
+    ]
   },
   {
     "nombre":"Servicio obtener información patente v2",
     "status": "Aprobada",
-    "fecha": "18 Apr 2022",
-    "progreso": 20  
+    "fecha": "30-06-2022",
+    "progreso": 20,
+    "id": 1,
+    "data":[
+      {
+        "name": "CPU (%)",
+        "data": [39, 22, 13]
+      },
+      {
+        "name": "RAM (%)",
+        "data": [54, 38, 26]
+      },
+      {
+        "name": "Disco (%)",
+        "data": [38, 23, 14]
+      }
+    ]  
   },
   {
     "nombre":"Servicio obtener información patente v3",
     "status": "Aprobada",
-    "fecha": "20 May 2021",
-    "progreso": 36  
+    "fecha": "30-06-2022",
+    "progreso": 36,
+    "id": 2 ,
+    "data": [
+      {
+        "name": "CPU (%)",
+        "data": [56, 31, 22]
+      },
+      {
+        "name": "RAM (%)",
+        "data": [64, 47, 30]
+      },
+      {
+        "name": "Disco (%)",
+        "data": [52, 33, 20]
+      }
+    ]  
   },
   {
     "nombre":"Servicio obtener información patente v4",
     "status": "Aprobada",
-    "fecha": "12 Jul 2021",
-    "progreso": 48  
+    "fecha": "30-06-2022",
+    "progreso": 48,
+    "id": 3,
+    "data": [
+      {
+        "name": "CPU (%)",
+        "data": [60, 48, 33]
+      },
+      {
+        "name": "RAM (%)",
+        "data": [68, 51, 39]
+      },
+      {
+        "name": "Disco (%)",
+        "data": [62, 33, 28]
+      }
+    ]   
   },
   {
     "nombre":"Servicio obtener información patente v5",
-    "status": "Aprobada",
-    "fecha": "12 Jul 2021",
-    "progreso": 60  
+    "status": "Fallida",
+    "fecha": "30-06-2022",
+    "progreso": 60,
+    "id": 4,
+    "data": [
+      {
+        "name": "CPU (%)",
+        "data": [73, 54, 49]
+      },
+      {
+        "name": "RAM (%)",
+        "data": [78, 61, 52]
+      },
+      {
+        "name": "Disco (%)",
+        "data": [68, 51, 40]
+      }
+    ]
   },
   {
     "nombre":"Servicio obtener información patente v6",
     "status": "Fallida",
-    "fecha": "12 Jul 2021",
-    "progreso": 95
+    "fecha": "30-06-2022",
+    "progreso": 95,
+    "id": 5,
+    "data": [
+      {
+        "name": "CPU (%)",
+        "data": [100, 93, 86]
+      },
+      {
+        "name": "RAM (%)",
+        "data": [100, 90, 82]
+      },
+      {
+        "name": "Disco (%)",
+        "data": [100, 82, 70]
+      }
+    ]
+  },
+  {
+    "nombre":"Realizar multiples entradas a la página web",
+    "status": "Pendiente",
+    "fecha": "30-06-2022",
+    "progreso": 0,
+    "id": 6,
+    "data": [
+      {
+        "name": "CPU (%)",
+        "data": [37, 25, 14]
+      },
+      {
+        "name": "RAM (%)",
+        "data": [47, 34, 21]
+      },
+      {
+        "name": "Disco (%)",
+        "data": [56, 41, 26]
+      }
+    ]
+  },
+  {
+    "nombre":"Multiples entradas al home de la página web",
+    "status": "Aprobada",
+    "fecha": "30-06-2022",
+    "progreso": 30,
+    "id": 7 ,
+    "data": [
+      {
+        "name": "CPU (%)",
+        "data": [62, 54, 37]
+      },
+      {
+        "name": "RAM (%)",
+        "data": [67, 51, 32]
+      },
+      {
+        "name": "Disco (%)",
+        "data": [72, 54, 36]
+      }
+    ]
+  },
+  {
+    "nombre":"Servicio para iniciar pago en linea",
+    "status": "Aprobada",
+    "fecha": "30-06-2022",
+    "progreso": 39,
+    "id": 8 ,
+    "data": [
+      {
+        "name": "CPU (%)",
+        "data": [47, 34, 26]
+      },
+      {
+        "name": "RAM (%)",
+        "data": [58, 46, 32]
+      },
+      {
+        "name": "Disco (%)",
+        "data": [60, 48, 31]
+      }
+    ] 
+  },
+  {
+    "nombre":"Servicio para completar pago en linea",
+    "status": "Fallida",
+    "fecha": "30-06-2022",
+    "progreso": 90,
+    "id": 9 ,
+    "data": [
+      {
+        "name": "CPU (%)",
+        "data": [69, 57, 49]
+      },
+      {
+        "name": "RAM (%)",
+        "data": [77, 65, 59]
+      },
+      {
+        "name": "Disco (%)",
+        "data": [75, 68, 55]
+      }
+    ]  
   }
 ]

@@ -26,7 +26,7 @@ export const columnsDataComplex = [
     accessor: "status",
   },
   {
-    Header: "Fecha último testeo",
+    Header: "Fecha último estado",
     accessor: "fecha",
   },
   {

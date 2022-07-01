@@ -2,69 +2,278 @@
     {
       "nombre":"Ingreso de usuarios v1",
       "status": "Aprobada",
-      "fecha": "18 Apr 2022",
-      "progreso": 13  
+      "fecha": "25-06-2022",
+      "progreso": 13,
+      "id": 0,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [3200, 1700, 1000]
+        }
+      ]  
     },
     {
       "nombre":"Ingreso de usuarios v2",
       "status": "Aprobada",
-      "fecha": "18 Apr 2022",
-      "progreso": 20  
+      "fecha": "25-06-2022",
+      "progreso": 20,
+      "id": 1,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [4000, 3000, 2500]
+        }
+      ]  
     },
     {
       "nombre":"Ingreso de usuarios v3",
       "status": "Aprobada",
-      "fecha": "20 May 2021",
-      "progreso": 36  
+      "fecha": "25-06-2022",
+      "progreso": 36,
+      "id": 2,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [6000, 5000, 4000]
+        }
+      ]      
     },
     {
       "nombre":"Ingreso de usuarios v4",
       "status": "Aprobada",
-      "fecha": "12 Jul 2021",
-      "progreso": 48  
+      "fecha": "26-06-2022",
+      "progreso": 48,
+      "id": 3,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [7000, 6000, 5300]
+        }
+      ]    
     },
     {
       "nombre":"Ingreso de usuarios v5",
-      "status": "Aprobada",
-      "fecha": "12 Jul 2021",
-      "progreso": 60  
+      "status": "Fallida",
+      "fecha": "26-06-2022",
+      "progreso": 80,
+      "id": 4,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [9000, 6700, 5300]
+        }
+      ]      
     },
     {
       "nombre":"Iniciar pago de permiso v1",
-      "status": "Fallida",
-      "fecha": "12 Jul 2021",
-      "progreso": 95
+      "status": "Aprobada",
+      "fecha": "27-06-2022",
+      "progreso": 14,
+      "id": 5,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [3000, 1800, 1100]
+        }
+      ]   
     },
     {
       "nombre":"Iniciar pago de permiso v2",
-      "status": "Fallida",
-      "fecha": "12 Jul 2021",
-      "progreso": 95
+      "status": "Aprobada",
+      "fecha": "27-06-2022",
+      "progreso": 26,
+      "id": 6,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [4000, 2200, 1900]
+        }
+      ]   
     },
     {
       "nombre":"Iniciar pago de permiso v3",
       "status": "Fallida",
-      "fecha": "12 Jul 2021",
-      "progreso": 95
+      "fecha": "27-06-2022",
+      "progreso": 67,
+      "id": 7,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [8000, 5400, 4300]
+        }
+      ]  
     },
     {
       "nombre":"Iniciar pago de permiso v4",
-      "status": "Fallida",
-      "fecha": "12 Jul 2021",
-      "progreso": 95
+      "status": "Pendiente",
+      "fecha": "27-06-2022",
+      "progreso": 0,
+      "id": 8,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [0, 0, 0]
+        }
+      ]  
     }
     ,
     {
       "nombre":"Consultar deudas pendientes",
-      "status": "Fallida",
-      "fecha": "12 Jul 2021",
-      "progreso": 95
+      "status": "Aprobada",
+      "fecha": "28-06-2022",
+      "progreso": 30,
+      "id": 9,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [4000, 3200, 1900]
+        }
+      ]  
     }
     ,
     {
       "nombre":"Consultar habilitación para pagar permiso",
+      "status": "Pendiente",
+      "fecha": "28-06-2022",
+      "progreso": 0,
+      "id": 10,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [0, 0, 0]
+        }
+      ]  
+    }
+    ,
+    {
+      "nombre":"Ingresar a la página v1",
+      "status": "Aprobada",
+      "fecha": "28-06-2022",
+      "progreso": 23,
+      "id": 11,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [7800, 5200, 3100]
+        }
+      ]  
+    }
+    ,
+    {
+      "nombre":"Ingresar a la página v2",
+      "status": "Pendiente",
+      "fecha": "28-06-2022",
+      "progreso": 0,
+      "id": 12,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [0, 0, 0]
+        }
+      ]  
+    },
+    {
+      "nombre":"Validar que SOAP se encuentre pagado v1",
+      "status": "Aprobada",
+      "fecha": "28-06-2022",
+      "progreso": 19,
+      "id": 13,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [4200, 3200, 1400]
+        }
+      ]  
+    },
+    {
+      "nombre":"Validar que SOAP se encuentre pagado v2",
+      "status": "Aprobada",
+      "fecha": "28-06-2022",
+      "progreso": 35,
+      "id": 14,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [6500, 4800, 3200]
+        }
+      ]  
+    },
+    {
+      "nombre":"Validar que SOAP se encuentre pagado v3",
+      "status": "Pendiente",
+      "fecha": "28-06-2022",
+      "progreso": 0,
+      "id": 15,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [0, 0, 0]
+        }
+      ] 
+    },
+    {
+      "nombre":"Validar revisión técnica al día v1",
+      "status": "Aprobada",
+      "fecha": "28-06-2022",
+      "progreso": 20,
+      "id": 16,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [1600, 1000, 600]
+        }
+      ] 
+    },
+    {
+      "nombre":"Validar revisión técnica al día v2",
+      "status": "Aprobada",
+      "fecha": "28-06-2022",
+      "progreso": 36,
+      "id": 17,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [3700, 2900, 1650]
+        }
+      ]
+    },
+    {
+      "nombre":"Validar revisión técnica al día v3",
+      "status": "Pendiente",
+      "fecha": "26-06-2022",
+      "progreso": 0,
+      "id": 18,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [0, 0, 0]
+        }
+      ] 
+    },
+    {
+      "nombre":"Validar la reserva de hora v1",
+      "status": "Aprobada",
+      "fecha": "28-06-2022",
+      "progreso": 39,
+      "id": 19,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [4200, 2200, 1200]
+        }
+      ]
+    },
+    {
+      "nombre":"Validar la reserva de hora v2",
       "status": "Fallida",
-      "fecha": "12 Jul 2021",
-      "progreso": 95
+      "fecha": "28-06-2022",
+      "progreso": 95,
+      "id": 20,
+      "data": [
+        {
+          "name": "Milisegundos",
+          "data": [6500, 5500, 4800]
+        }
+      ]
     }
   ]

@@ -3,7 +3,7 @@
 export const barChartDataDailyTraffic = [
   {
     name: "Daily Traffic",
-    data: [20, 30, 40, 20, 45, 50, 30],
+    data: [20, 30, 40],
   },
 ];
 
@@ -27,7 +27,7 @@ export const barChartOptionsDailyTraffic = {
     theme: "dark",
   },
   xaxis: {
-    categories: ["00", "04", "08", "12", "14", "16", "18"],
+    categories: ["Ciclo 1", "Ciclo 2", "Ciclo 3"],
     show: false,
     labels: {
       show: true,
@@ -69,29 +69,12 @@ export const barChartOptionsDailyTraffic = {
       },
     },
   },
+  colors: ["#DC7633", "#8E44AD", "#48C9B0"],
   fill: {
-    type: "gradient",
-    gradient: {
-      type: "vertical",
-      shadeIntensity: 1,
-      opacityFrom: 0.7,
-      opacityTo: 0.9,
-      colorStops: [
-        [
-          {
-            offset: 0,
-            color: "#4318FF",
-            opacity: 1,
-          },
-          {
-            offset: 100,
-            color: "rgba(67, 24, 255, 1)",
-            opacity: 0.28,
-          },
-        ],
-      ],
-    },
+    type: "solid",
+    colors: ["#DC7633", "#8E44AD", "#48C9B0"],
   },
+  
   dataLabels: {
     enabled: false,
   },
