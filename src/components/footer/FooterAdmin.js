@@ -38,12 +38,12 @@ export default function Footer() {
         {" "}
         &copy; {1900 + new Date().getYear()}
         <Text as='span' fontWeight='500' ms='4px'>
-          Hecho por los mejores alumnos
+          
           <Link
             mx='3px'
             color={textColor}
             fontWeight='700'>
-            YERA!
+              Wladidi CO®
           </Link>
         </Text>
       </Text>

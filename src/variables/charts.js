@@ -107,17 +107,21 @@ export const barChartOptionsDailyTraffic = {
 
 export const barChartDataConsumption = [
   {
-    name: "PRODUCT A",
-    data: [400, 370, 330, 390, 320, 350, 360, 320, 380],
+    name: "CPU (%)",
+    data: [400, 370, 330],
   },
   {
-    name: "PRODUCT B",
-    data: [400, 370, 330, 390, 320, 350, 360, 320, 380],
+    name: "RAM (%)",
+    data: [400, 370, 330],
   },
   {
-    name: "PRODUCT C",
-    data: [400, 370, 330, 390, 320, 350, 360, 320, 380],
+    name: "Disco (%)",
+    data: [400, 370, 330],
   },
+  {
+    name: "Milisegundos (ms)",
+    data: [200,560,860]
+  }
 ];
 
 export const barChartOptionsConsumption = {
@@ -141,7 +145,7 @@ export const barChartOptionsConsumption = {
     theme: "dark",
   },
   xaxis: {
-    categories: ["17", "18", "19", "20", "21", "22", "23", "24", "25"],
+    categories: ["Ciclo 1", "Ciclo 2", "Ciclo final"],
     show: false,
     labels: {
       show: true,
@@ -191,12 +195,12 @@ export const barChartOptionsConsumption = {
   },
   fill: {
     type: "solid",
-    colors: ["#5E37FF", "#6AD2FF", "#E1E9F8"],
+    colors: ["#DC7633", "#8E44AD", "#48C9B0"],
   },
   legend: {
     show: false,
   },
-  colors: ["#5E37FF", "#6AD2FF", "#E1E9F8"],
+  colors: ["#DC7633", "#8E44AD", "#48C9B0"],
   dataLabels: {
     enabled: false,
   },
@@ -209,8 +213,8 @@ export const barChartOptionsConsumption = {
 };
 
 export const pieChartOptions = {
-  labels: ["Your files", "System", "Empty"],
-  colors: ["#4318FF", "#6AD2FF", "#EFF4FB"],
+  labels: ["Aprobadas", "Fallidas"],
+  colors: ["#4318FF", "#6AD2FF"],
   chart: {
     width: "50px",
   },
@@ -239,7 +243,7 @@ export const pieChartOptions = {
     },
   },
   fill: {
-    colors: ["#4318FF", "#6AD2FF", "#EFF4FB"],
+    colors: ["#4318FF", "#6AD2FF"],
   },
   tooltip: {
     enabled: true,
@@ -247,19 +251,24 @@ export const pieChartOptions = {
   },
 };
 
-export const pieChartData = [63, 25, 12];
+export const pieChartData = [80, 20];
 
 // Total Spent Default
 
 export const lineChartDataTotalSpent = [
   {
-    name: "Revenue",
-    data: [50, 64, 48, 66, 49, 68],
+    name: "CPU (%)",
+    data: [5,13,22,33,49,86],
   },
   {
-    name: "Profit",
-    data: [30, 40, 24, 46, 20, 46],
+    name: "RAM (%)",
+    data: [23,26,30,39,52,82],
   },
+  {
+    name: "Disco (%)",
+    data: [9,14,20,28,40,70],
+  },
+
 ];
 
 export const lineChartOptionsTotalSpent = {
@@ -276,7 +285,7 @@ export const lineChartOptionsTotalSpent = {
       color: "#4318FF",
     },
   },
-  colors: ["#4318FF", "#39B8FF"],
+  colors: ["#7DCEA0", "#BB8FCE", "#5DADE2", "#E59866", "#F7DC6F"],
   markers: {
     size: 0,
     colors: "white",
@@ -304,7 +313,7 @@ export const lineChartOptionsTotalSpent = {
   },
   xaxis: {
     type: "numeric",
-    categories: ["SEP", "OCT", "NOV", "DEC", "JAN", "FEB"],
+    categories: ['v1', 'v2','v3','v4','v5','v6'],
     labels: {
       style: {
         colors: "#A3AED0",

@@ -1,0 +1,70 @@
+[
+    {
+      "nombre":"Ingreso de usuarios v1",
+      "status": "Aprobada",
+      "fecha": "18 Apr 2022",
+      "progreso": 13  
+    },
+    {
+      "nombre":"Ingreso de usuarios v2",
+      "status": "Aprobada",
+      "fecha": "18 Apr 2022",
+      "progreso": 20  
+    },
+    {
+      "nombre":"Ingreso de usuarios v3",
+      "status": "Aprobada",
+      "fecha": "20 May 2021",
+      "progreso": 36  
+    },
+    {
+      "nombre":"Ingreso de usuarios v4",
+      "status": "Aprobada",
+      "fecha": "12 Jul 2021",
+      "progreso": 48  
+    },
+    {
+      "nombre":"Ingreso de usuarios v5",
+      "status": "Aprobada",
+      "fecha": "12 Jul 2021",
+      "progreso": 60  
+    },
+    {
+      "nombre":"Iniciar pago de permiso v1",
+      "status": "Fallida",
+      "fecha": "12 Jul 2021",
+      "progreso": 95
+    },
+    {
+      "nombre":"Iniciar pago de permiso v2",
+      "status": "Fallida",
+      "fecha": "12 Jul 2021",
+      "progreso": 95
+    },
+    {
+      "nombre":"Iniciar pago de permiso v3",
+      "status": "Fallida",
+      "fecha": "12 Jul 2021",
+      "progreso": 95
+    },
+    {
+      "nombre":"Iniciar pago de permiso v4",
+      "status": "Fallida",
+      "fecha": "12 Jul 2021",
+      "progreso": 95
+    }
+    ,
+    {
+      "nombre":"Consultar deudas pendientes",
+      "status": "Fallida",
+      "fecha": "12 Jul 2021",
+      "progreso": 95
+    }
+    ,
+    {
+      "nombre":"Consultar habilitación para pagar permiso",
+      "status": "Fallida",
+      "fecha": "12 Jul 2021",
+      "progreso": 95
+    }
+  ]

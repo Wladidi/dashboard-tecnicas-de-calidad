@@ -18,19 +18,19 @@ export const columnsDataCheck = [
 ];
 export const columnsDataComplex = [
   {
-    Header: "NAME",
-    accessor: "name",
+    Header: "Nombre",
+    accessor: "nombre",
   },
   {
     Header: "STATUS",
     accessor: "status",
   },
   {
-    Header: "DATE",
-    accessor: "date",
+    Header: "Fecha último testeo",
+    accessor: "fecha",
   },
   {
-    Header: "PROGRESS",
-    accessor: "progress",
+    Header: "Consumo del servicio (%)",
+    accessor: "progreso",
   },
 ];

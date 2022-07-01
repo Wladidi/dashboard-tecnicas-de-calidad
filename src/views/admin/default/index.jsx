@@ -136,25 +136,62 @@ export default function UserReports() {
               }
             />
           }
-          name='Total Projects'
-          value='2935'
+          name='Ciclo actual'
+          value='Ciclo 3 (Final)'
         />
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-        <TotalSpent />
+        <TotalSpent title="Servicio obtener información patente"/>
         <WeeklyRevenue />
       </SimpleGrid>
+      <SimpleGrid columns={{ base: 1, md: 2, xl: 3 }} gap='20px' mb='20px'>
+        {/* <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'> */}
+          
+          <PieCard title="Pruebas de estrés" options={[{title: 'Ciclo 1', value: '1'},{title: 'Ciclo 2', value: '2'},{title: 'Ciclo final', value: '3'}]} 
+            values={{
+                '1': [57,43],
+                '2': [68,32],
+                '3': [88,12]
+            }} 
+            labels={["Aprobadas", "Fallidas"]}
+            colors={["#4318FF", "#6AD2FF"]}
+            />
+            <PieCard title="Pruebas de carga" options={[{title: 'Ciclo 1', value: '1'},{title: 'Ciclo 2', value: '2'},{title: 'Ciclo final', value: '3'}]} 
+            values={{
+                '1': [57,43],
+                '2': [68,32],
+                '3': [88,12]
+            }} 
+            labels={["Aprobadas", "Fallidas"]}
+            colors={["#4318FF", "#6AD2FF"]}
+            />
+          <PieCard title="Total pruebas realizadas" options={[{title: 'Ciclo 1', value: '1'},{title: 'Ciclo 2', value: '2'},{title: 'Ciclo final', value: '3'}]} 
+          values={{
+              '1': [57,43],
+              '2': [68,32],
+              '3': [88,12]
+          }} 
+          labels={["Aprobadas", "Fallidas"]}
+          colors={["#4318FF", "#6AD2FF"]}
+          />
+          
+        {/* </SimpleGrid> */}
+        {/* <ComplexTable
+          columnsData={columnsDataComplex}
+          tableData={tableDataComplex}
+        /> */}
+      </SimpleGrid>
       <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
-        <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
-          <DailyTraffic />
-          <PieCard />
-        </SimpleGrid>
-        <ComplexTable
+      <ComplexTable
           columnsData={columnsDataComplex}
           tableData={tableDataComplex}
         />
-      </SimpleGrid>
+        <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
+        <DailyTraffic />
+        <DailyTraffic />
+        </SimpleGrid>
+        </SimpleGrid>
     </Box>
   );
 }
