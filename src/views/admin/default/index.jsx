@@ -1,26 +1,4 @@
-/*!
-  _   _  ___  ____  ___ ________  _   _   _   _ ___   
- | | | |/ _ \|  _ \|_ _|__  / _ \| \ | | | | | |_ _| 
- | |_| | | | | |_) || |  / / | | |  \| | | | | || | 
- |  _  | |_| |  _ < | | / /| |_| | |\  | | |_| || |
- |_| |_|\___/|_| \_\___/____\___/|_| \_|  \___/|___|
-                                                                                                                                                                                                                                                                                                                                       
-=========================================================
-* Horizon UI - v1.1.0
-=========================================================
 
-* Product Page: https://www.horizon-ui.com/
-* Copyright 2022 Horizon UI (https://www.horizon-ui.com/)
-
-* Designed and Coded by Simmmple
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
-// Chakra imports
 import {
   Avatar,
   Box,
@@ -113,7 +91,7 @@ export default function UserReports() {
           name='Pruebas fallidas'
           value='20%'
         />
-       
+
         <MiniStatistics
           startContent={
             <IconBox
@@ -142,57 +120,52 @@ export default function UserReports() {
         />
       </SimpleGrid>
 
-      <SimpleGrid columns={{ base: 1, md: 1,lg:1, xl: 2 }} gap='20px' mb='20px'>
-        <TotalSpent title="Servicio obtener información patente"/>
+      <SimpleGrid columns={{ base: 1, md: 1, lg: 1, xl: 1 }} gap='20px' mb='20px'>
+        <TotalSpent title="Servicio obtener información patente" />
         <WeeklyRevenue />
       </SimpleGrid>
       <SimpleGrid columns={{ base: 1, md: 2, xl: 3 }} gap='20px' mb='20px'>
         {/* <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'> */}
-          
-          <PieCard title="Pruebas de estrés" options={[{title: 'Ciclo 1', value: '1'},{title: 'Ciclo 2', value: '2'},{title: 'Ciclo final', value: '3'}]} 
-            values={{
-                '1': [48,52],
-                '2': [67,33],
-                '3': [90,10]
-            }} 
-            labels={["Aprobadas", "Fallidas"]}
-            colors={["#4318FF", "#6AD2FF"]}
-            />
-            <PieCard title="Pruebas de carga" options={[{title: 'Ciclo 1', value: '1'},{title: 'Ciclo 2', value: '2'},{title: 'Ciclo final', value: '3'}]} 
-            values={{
-                '1': [32,78],
-                '2': [58,42],
-                '3': [85,15]
-            }} 
-            labels={["Aprobadas", "Fallidas"]}
-            colors={["#4318FF", "#6AD2FF"]}
-            />
-          <PieCard title="Total pruebas realizadas" options={[{title: 'Ciclo 1', value: '1'},{title: 'Ciclo 2', value: '2'},{title: 'Ciclo final', value: '3'}]} 
+
+        <PieCard title="Pruebas de estrés" options={[{ title: 'Ciclo 1', value: '1' }, { title: 'Ciclo 2', value: '2' }, { title: 'Ciclo final', value: '3' }]}
           values={{
-              '1': [57,43],
-              '2': [68,32],
-              '3': [88,12]
-          }} 
+            '1': [48, 52],
+            '2': [67, 33],
+            '3': [90, 10]
+          }}
           labels={["Aprobadas", "Fallidas"]}
           colors={["#4318FF", "#6AD2FF"]}
-          />
-          
-        {/* </SimpleGrid> */}
-        {/* <ComplexTable
-          columnsData={columnsDataComplex}
-          tableData={tableDataComplex}
-        /> */}
+        />
+        <PieCard title="Pruebas de carga" options={[{ title: 'Ciclo 1', value: '1' }, { title: 'Ciclo 2', value: '2' }, { title: 'Ciclo final', value: '3' }]}
+          values={{
+            '1': [32, 78],
+            '2': [58, 42],
+            '3': [85, 15]
+          }}
+          labels={["Aprobadas", "Fallidas"]}
+          colors={["#4318FF", "#6AD2FF"]}
+        />
+        <PieCard title="Total pruebas realizadas" options={[{ title: 'Ciclo 1', value: '1' }, { title: 'Ciclo 2', value: '2' }, { title: 'Ciclo final', value: '3' }]}
+          values={{
+            '1': [57, 43],
+            '2': [68, 32],
+            '3': [88, 12]
+          }}
+          labels={["Aprobadas", "Fallidas"]}
+          colors={["#4318FF", "#6AD2FF"]}
+        />
+
       </SimpleGrid>
-      <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
-      <ComplexTable
+      <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px' mb='20px'>
+        <ComplexTable
           columnsData={columnsDataComplex}
           tableData={tableDataComplex}
         />
         <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
-        <DailyTraffic title="Pruebas de carga" options={cargas}/>
-        <DailyTraffic title="Pruebas de estrés" options={tableDataComplex}/>
+          <DailyTraffic title="Pruebas de carga" options={cargas} />
+          <DailyTraffic title="Pruebas de estrés" options={tableDataComplex} />
         </SimpleGrid>
-        </SimpleGrid>
+      </SimpleGrid>
     </Box>
   );
 }
